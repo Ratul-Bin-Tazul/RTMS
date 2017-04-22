@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/addRecord"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Add New Record" />
+        <item
+            android:id="@+id/draftData"
+            android:icon="@drawable/ic_save_black_24dp"
+            android:title="View Draft Data" />
+        <item
+            android:id="@+id/viewAllRecord"
+            android:icon="@drawable/ic_view_stream_black_24dp"
+            android:title="View All My Record" />
+    </group>
+
+    <item android:title="Preferences">
+        <menu>
+            <item
+                android:id="@+id/appSetting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="App Setting" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:title="Help &amp; Feedback" />
+        </menu>
+    </item>
+
+</menu>

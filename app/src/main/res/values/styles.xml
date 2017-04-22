@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="navTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="input_field">
+        <item name="android:background">@drawable/input_outline</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="img_btn">
+        <item name="android:background">@drawable/draft_image_icon</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="btnStyle">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="table_cell_design">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/table_cell</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:height">40dp</item>
+        <item name="android:maxHeight">40dp</item>
+        <item name="android:width">90dp</item>
+        <item name="android:maxWidth">90dp</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="data_cell_design">
+        <item name="android:textColor">#000</item>
+        <item name="android:background">@drawable/data_cell</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:height">40dp</item>
+        <item name="android:maxHeight">40dp</item>
+        <item name="android:width">90dp</item>
+        <item name="android:maxWidth">90dp</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_input_field"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.drbt.onlinedatacollector.InputFieldActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/input_field"
+            android:id="@+id/dnsoRadioGroup"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name of DNSO"
+                android:textSize="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginBottom="10dp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ratul"
+                android:id="@+id/dnsoRatul" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sadik"
+                android:id="@+id/dnsoSadik"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="amin"
+                android:id="@+id/dnsoAmin"/>
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/input_field">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select District"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/districtChooserSpinner">
+
+            </Spinner>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        style="@style/input_field">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Year"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yearChosserSpinner">
+            </Spinner>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        style="@style/input_field">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Month"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/monthChooserSpinner">
+
+        </Spinner>
+        </LinearLayout>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="No. of First Line Supervisor"
+            android:ems="10"
+            style="@style/input_field"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/firestLine" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="No. of Front Line Health Worker"
+            style="@style/input_field"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/frontLine"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="No. of Male"
+            style="@style/input_field"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/male"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="No. of Female"
+            style="@style/input_field"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/female"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="No. of Anthropocentric Measurement"
+            style="@style/input_field"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/anthropocentric"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Draft"
+            android:background="#f44336"
+            android:id="@+id/saveBtn"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/submitBtn"
+            android:textColor="#fff"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

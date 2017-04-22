@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.drbt.onlinedatacollector.ViewDataActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/horizontlContainer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="DNSO Name"
+                android:layout_height="wrap_content"
+                style="@style/table_cell_design"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="District"
+                android:layout_height="wrap_content"
+                style="@style/table_cell_design"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Year"
+                android:layout_height="wrap_content"
+                style="@style/table_cell_design"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Month"
+                android:layout_height="wrap_content"
+                style="@style/table_cell_design"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="First Line Supervisor"
+                android:layout_height="wrap_content"
+                style="@style/table_cell_design"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Front Line Supervisor"
+                android:layout_height="wrap_content"
+                style="@style/table_cell_design"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Male"
+                android:layout_height="wrap_content"
+                style="@style/table_cell_design"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Female"
+                android:layout_height="wrap_content"
+                style="@style/table_cell_design"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Anthropocentric Measurement"
+                android:layout_height="wrap_content"
+                style="@style/table_cell_design"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Synced"
+                android:layout_height="wrap_content"
+                style="@style/table_cell_design"/>
+        </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:id="@+id/databaseRecycleView"
+                android:layout_marginBottom="16dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+</HorizontalScrollView>

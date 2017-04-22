@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">RTMS</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="district_name_array">
+        <item>Bagerhat</item>
+        <item>Bandarban</item>
+        <item>Barguna</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Brahmanbaria</item>
+        <item>Chapai</item>
+        <item>CCC</item>
+
+        <item>Chuadanga</item>
+        <item>Comilla</item>
+        <item>CoxsBazar</item>
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Hobigonj</item>
+        <item>Jamalpur</item>
+        <item>Jhalokati</item>
+
+        <item>Khagrachori</item>
+        <item>KCC</item>
+        <item>Kishoregonj</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Mymensingh</item>
+        <item>Narail</item>
+        <item>Netrokona</item>
+
+        <item>Nilphamari</item>
+        <item>Noakhali</item>
+        <item>Pabna</item>
+        <item>Panchagarh</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Rangamati</item>
+        <item>Rangpur</item>
+
+        <item>Satkhira</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Sirajgonj</item>
+        <item>Sunamganj</item>
+        <item>SCC</item>
+        <item>Sylhet</item>
+        <item>Tangail</item>
+
+        <item>Satkhira</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Sirajgonj</item>
+        <item>Sunamganj</item>
+        <item>SCC</item>
+        <item>Sylhet</item>
+        <item>Tangail</item>
+    </string-array>
+
+    <string-array name="year_array">
+        <item>2016</item>
+        <item>2017</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>
